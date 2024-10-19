@@ -13,8 +13,8 @@ class Sum{
 	// Print Values
 	System.out.println(n1);
 	System.out.println(n2);
-	System.out.printf("%d",n3);
+	System.out.printf("%d",n3); 
 	}
- }
+}
 	
 	
