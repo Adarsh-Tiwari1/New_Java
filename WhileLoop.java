@@ -1,4 +1,4 @@
-
+/*
 class WhileLoop{
     public static void main(String[] args){
         int a;
@@ -10,3 +10,34 @@ class WhileLoop{
         }
     }
 }
+*/
+
+/*
+class WhileLoop{
+    public static void main(String[] args){
+        int a;
+        a = 1; // initialization
+
+        while(a <= 5) // test consition
+        System.out.println(a);
+        a++; // increment 
+        
+    }
+}
+*/
+
+/*
+class WhileLoop{
+    public static void main(String[] args){
+        int a;
+        a = 1; // initialization
+
+        while(a <= 5)// test consition
+        System.out.println(a++);
+        
+        
+    }
+}
+*/
+
+
