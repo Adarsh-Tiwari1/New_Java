@@ -223,6 +223,7 @@ class Task3{
 }
 */
 
+/*
 import java.util.Scanner;
 
 class Task3{
@@ -230,7 +231,19 @@ class Task3{
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter Number");
+        int num = sc.nextInt();
+        int i=0;
 
-        
+        // for( i=1;i<=num;i++){
+        // //    System.out.print(i);
+    
+        // }  
+         for(int j=1; j<=num*2; j++)
+            {
+            if(j%2!=0){
+                System.out.println(j);
+            }
+            }
     }
 }
+*/
