@@ -41,7 +41,7 @@ class ArrayQue{
 }
 */
 
-
+/*
 import java.util.Scanner;
 class ArrayQue{
     public static void main(String[] args){
@@ -62,3 +62,4 @@ class ArrayQue{
         }
     }
 }
+*/
