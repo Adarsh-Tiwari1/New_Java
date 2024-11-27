@@ -1,8 +1,7 @@
 // bubble sort 
 
 /*
-class 
-{
+class {
     public static void main(String[] args){
         int arr[] = {30,10,20};
         System.out.println("Before Swappint :");
@@ -27,7 +26,7 @@ class
 }
 */
 
-
+/*
 class Array4Sort{
     public static void main(String[] args){
         int arr[] = {30,10,20};
@@ -51,3 +50,31 @@ class Array4Sort{
         }
     }
 }
+*/
+
+/*
+class Array4Sort{
+    public static void main(String[] args){
+        int num[] = {50,60,10,30,80};
+        System.out.println("Before Swapping");
+        for(int i=0;i<num.length;i++){
+            System.out.print("\t" + num[i]);
+        }
+        System.out.println("After Swapping");
+        for(int i=0;i<num.length;i++){
+            for(int j=i+1;j<num.length;j++){
+                if(num[i]>num[j]){
+                    int temp = num[i];
+                    num[i]=num[j];
+                    num[j]=temp;
+                }
+            }
+        }
+        System.out.println("After Swapping");
+        for(int i=0;i<num.length;i++){
+            System.out.print("\t"+num[i]);
+        }
+    }
+}
+*/
+
