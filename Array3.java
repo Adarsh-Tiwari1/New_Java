@@ -63,9 +63,7 @@ class Array3{
 
 // wap to check given array is sorted or not 
 
-
-
-
+/*
 class Array3{
     public static void main(String[] args){
         int arr[] = {10,40,20,30};
@@ -76,10 +74,14 @@ class Array3{
                     count++;
                 }
             }
-        } if(count==0){
+        } 
+        if(count==0){
             System.out.println("yes array element is sorted");
         }else{
             System.out.println("not array element is sorted");
         }
     }
 }
+*/
+
+
