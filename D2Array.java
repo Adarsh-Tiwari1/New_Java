@@ -83,6 +83,7 @@ class D2Array{
 */
 
 
+/*
 class D2Array{
     public static void main(String[] ares){
         int arr[][] = {
@@ -95,3 +96,17 @@ class D2Array{
         System.out.println(arr[2][0]);
     }
 }
+*/
+
+/*
+class D2Array2{
+    public static void main(String[] ares){
+        int arr[][] = {
+            {0,0,0,0},
+            {0,1,0},
+            {1,0,0}
+        };
+        System.out.println(arr[0][0] + " " + arr[0][1]);
+    }
+}
+*/
