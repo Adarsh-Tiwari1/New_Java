@@ -48,6 +48,7 @@ class String3{
 }
 */
 
+/*
 class String3{
     public static void main(String[] args){
         String str = "Welcome";
@@ -56,5 +57,42 @@ class String3{
         int len1 = str1.length();
         System.out.println(len);
         System.out.println(len1);
+    }
+}
+*/
+
+// split() method // 
+/*
+class String3{
+    public static void main(String[] args){
+        String str = "Welcome to Bhopal";
+        String arr[] = str.split("o");
+        System.out.println(arr[0]);
+        System.out.println(arr[1]);
+        System.out.println(arr[2]);
+        System.out.println(arr[3]);
+    }
+}
+*/
+
+/*
+class String3{
+    public static void main(String[] args){
+        String str = "Welcome to Bhopal";
+        String arr[] = str.split("o");
+        System.out.println(arr[0]);
+        System.out.println(arr[1]);
+        System.out.println(arr[2]);
+        System.out.println(arr[3]);
+    }
+}
+*/
+
+// subString() method  { Start Include end Exclude }
+class String3{
+    public static void main(String[] args){
+        String str = "Welcome to Bhopal"; 
+        System.out.println(str.substring(3));
+        System.out.println(str.substring(3,5));
     }
 }
