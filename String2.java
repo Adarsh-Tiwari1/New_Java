@@ -64,7 +64,7 @@ class String2{
 
 
 // contains() method 
-
+/*
 class String2{
     public static void main(String[] args){
         String str = "ThIS is city of lake";
@@ -72,3 +72,60 @@ class String2{
         System.out.println(b);
     }
 }
+*/
+
+// isEmpty() Method
+
+/*
+class String2{
+    public static void main(String[] args){
+        String str ;
+        
+        System.out.println("".isEmpty());
+    }
+}
+*/
+
+/*
+class String2{
+    public static void main(String[] args){
+        String str = "Adarsh" ;  
+        System.out.println(str.isEmpty());
+    }
+}
+*/
+
+/*
+class String2{
+    public static void main(String[] args){
+        String str ;
+        
+        System.out.println("".isEmpty());
+    }
+}
+*/
+
+// endsWith method()  // character end se check karta hai,. email last me domain me use hota hai.
+/*
+class String2{
+    public static void main(String[] args){
+        String str = "Welcome Adarsh";
+        String str1 = " ";
+        System.out.println(str.endsWith("rsh"));
+        System.out.println(str1.endsWith(" "));
+    }
+}
+*/
+
+// startsWit() method  // startsWith() starting se check karta hai.
+/*
+class String2{
+    public static void main(String[] args){
+        String str = "Welcome Adarsh";
+        System.out.println(str.startsWith("Welcome "));
+    }
+}
+*/
+
+// her class ke base class object class hoti hai.
+
