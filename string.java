@@ -117,6 +117,23 @@ class string{
 }
 */
 
+/*
 class string{
-    public static void main
+    public static void main(String[] args){
+        String str1 = "Adarsh";
+        String str2 = "Adarsh";
+        System.out.println(str1 == str2);
+    }
 }
+*/
+
+/*
+class string {
+    public static void main(String[] args){
+        String str1 = new String("Adarsh");
+        String str2 = new String("Adarsh");
+        System.out.println(str1 == str2);
+    }
+}
+*/
+
