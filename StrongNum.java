@@ -2,28 +2,26 @@
 
 import java.util.Scanner;
 
-class StrongNum{
-    public static void main(String[] args){
+class StrongNum {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
-        System.out.println("Enter Any Number");
+        System.out.println("Enter Any Number:");
         int num = sc.nextInt();
-
-        int m = num;
-        int res = 0;
-        int fact;
-        while(num!=0){
-            int r = num%10;
-            res = res*10+r;
-            fact = 1;
-            for(int i=r;i>=1;i--){
-                fact = fact*i
+        int originalNum = num;
+        int sum = 0;
+        while (num != 0) {
+            int digit = num % 10;
+            int fact = 1;
+            for (int i = 1; i <= digit; i++) {
+                fact *= i;
             }
+            sum += fact;
+            num /= 10;
         }
-        if(m==res){
-            System.out.println("This is Palindrome num");
-        }else{
-            System.out.println("This is not Palindrome num");
+        if (sum == originalNum) {
+            System.out.println(originalNum + " is a Strong Number.");
+        } else {
+            System.out.println(originalNum + " is not a Strong Number.");
         }
     }
 }
